@@ -16,10 +16,14 @@ namespace _01_TK
             repository.Add(new Employee() { Name = "Maria", Age = 22, Nationality = "Italian" });
 
 
+            // Updating
             repository.UpdatePersonnalInfo(n => n.Name == "Maria", e =>
             {
                 e.Age = 23;
             });
+
+            // Deleting
+            repository.DeleteRepository(n => n.Name == "Alex");
 
             foreach (var employees in repository.GetAll())
             {
