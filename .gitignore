@@ -1,0 +1,79 @@
+# Windows# Windows thumbnail cache files
+Thumbs.db
+
+# Windows Installer files
+*.cab
+
+# Windows Installer files (when using Visual Studio setup projects)
+*.msi
+*.msm
+*.msp
+
+# User-specific files
+.idea/
+.vs/
+.vscode/
+
+# User-specific files for Visual Studio
+.vsconfig
+.vs2019/
+.vs2017/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]Release/
+[Dd]ebug/NetCore/
+[Dd]Release/NetCore/
+
+# User-specific project and solution files
+.vs2019/
+.vs2017/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NPM package lock files (if working with frontend packages)
+node_modules/
+
+# Package directories
+packages/thumbnail cache files
+Thumbs.db
+
+# Windows Installer files
+*.cab
+
+# Windows Installer files (when using Visual Studio setup projects)
+*.msi
+*.msm
+*.msp
+
+# User-specific files
+.idea/
+.vs/
+.vscode/
+
+# User-specific files for Visual Studio
+.vsconfig
+.vs2019/
+.vs2017/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]Release/
+[Dd]ebug/NetCore/
+[Dd]Release/NetCore/
+
+# User-specific project and solution files
+.vs2019/
+.vs2017/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NPM package lock files (if working with frontend packages)
+node_modules/
+
+# Package directories
+packages/
