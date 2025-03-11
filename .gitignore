@@ -1,79 +1,56 @@
-# Windows# Windows thumbnail cache files
-Thumbs.db
+## Build folders
+bin/
+obj/
 
-# Windows Installer files
-*.cab
-
-# Windows Installer files (when using Visual Studio setup projects)
-*.msi
-*.msm
-*.msp
-
-# User-specific files
-.idea/
-.vs/
+## VS Code
 .vscode/
 
-# User-specific files for Visual Studio
-.vsconfig
-.vs2019/
-.vs2017/
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Dd]Release/
-[Dd]ebug/NetCore/
-[Dd]Release/NetCore/
-
-# User-specific project and solution files
-.vs2019/
-.vs2017/
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# NPM package lock files (if working with frontend packages)
-node_modules/
-
-# Package directories
-packages/thumbnail cache files
-Thumbs.db
-
-# Windows Installer files
-*.cab
-
-# Windows Installer files (when using Visual Studio setup projects)
-*.msi
-*.msm
-*.msp
-
-# User-specific files
+## Rider / JetBrains
 .idea/
+
+## Visual Studio for Mac
+*.pidb
+*.userprefs
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+## Logs and crash dumps
+*.log
+*.tlog
+*.stackdump
+
+## Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+## .NET Core specific
+project.nuget.cache
 .vs/
-.vscode/
+*.dbmdl
 
-# User-specific files for Visual Studio
-.vsconfig
-.vs2019/
-.vs2017/
+## Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
 
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Dd]Release/
-[Dd]ebug/NetCore/
-[Dd]Release/NetCore/
-
-# User-specific project and solution files
-.vs2019/
-.vs2017/
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# NPM package lock files (if working with frontend packages)
-node_modules/
-
-# Package directories
-packages/
+## Others
+_ReSharper*/
+*.DotSettings.user
