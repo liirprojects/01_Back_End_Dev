@@ -2,8 +2,6 @@
 using System.Runtime.Intrinsics.X86;
 using System.Threading.Tasks;
 using System;
-using System.Net.Http.Headers;
-
 namespace _02_TK
 {
     internal class Program
@@ -22,7 +20,7 @@ Challenge: Add overdue monitoring that automatically raises alerts and reassigns
 
         static void Main(string[] args)
         {
-           
+
         }
     }
     public class TaskItem
@@ -53,12 +51,12 @@ Challenge: Add overdue monitoring that automatically raises alerts and reassigns
             this.Priority = task_Priority;
             status = "Created";
         }
-
     }
     public class TaskManager
     {
         public SortedDictionary<int, Queue<TaskItem>> task_list;
         public event Action<TaskItem>? TaskAssigned;
+        public event Action<TaskItem>? taskAssigned;
         public TaskManager()
         {
             task_list = new SortedDictionary<int, Queue<TaskItem>>();
